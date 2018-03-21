@@ -56,7 +56,9 @@ var CornerMarker = (function (_super) {
         ctx.strokeStyle =
             this.cropperSettings.cropperDrawSettings.strokeColor ||
                 "rgba(255,255,255,.7)";
+        ctx.fillStyle = "rgba(0,0,0,1)";
         ctx.stroke();
+        ctx.fill();
     };
     CornerMarker.prototype.drawCornerFill = function (ctx) {
         var sideLength = 10;
