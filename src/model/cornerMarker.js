@@ -84,7 +84,6 @@ var CornerMarker = (function (_super) {
         ctx.fillStyle =
             this.cropperSettings.cropperDrawSettings.strokeColor ||
                 "rgba(255,255,255,.7)";
-        ctx.fill();
     };
     CornerMarker.prototype.moveX = function (x) {
         this.setPosition(x, this.position.y);
