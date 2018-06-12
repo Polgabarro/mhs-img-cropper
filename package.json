@@ -9,6 +9,9 @@
   ],
   "author": "David Muellerchen",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "peerDependencies": {
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
