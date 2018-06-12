@@ -12,6 +12,8 @@
   "files": [
     "dist"
   ],
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "peerDependencies": {
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
